@@ -1,0 +1,40 @@
+#
+# To disable a function, change the message to an empty string.
+#
+
+# Placeholders:
+# {server} = Server the player joined.
+# {player} = Player who sent the message.
+# {message} = The message that was sent.
+staffjoin: '&8[&eStaff&8] &b{player} &ejoined &b{server}&e.'
+staffmove: '&8[&eStaff&8] &b{player} &emoved to &b{to} &efrom &b{from}&e.'
+staffleave: '&8[&eStaff&8] &b{player} &eleft &b{server}.&e'
+
+
+
+# The format for when a player staffchats.
+# Placeholders:
+# {server} = Server the message was sent on.
+# {player} = Player who sent the message.
+# {message} = The message that was sent.
+staffmessage: '&8[&eStaff&8] &8[&e{server}&8] &b{player}: &e{message}'
+
+
+
+# The message for when a player toggles staff chat to true.
+# Placeholders:
+# none.
+enabled: '&aAll messages you send will now appear in the staff chat.'
+
+# The message for when a player toggles staff chat to false.
+# Placeholders:
+# none.
+disabled: '&cAll messages you send will now appear in regular chat.'
+
+
+
+# If a message starts with this prefix, and the player has the correct
+# permissions, the message will be sent to staffchat.
+# Placeholders:
+# none.
+prefix: '#'
