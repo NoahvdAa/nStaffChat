@@ -8,7 +8,7 @@
 # {message} = The message that was sent.
 staffjoin: '&8[&eStaff&8] &b{player} &ejoined &b{server}&e.'
 staffmove: '&8[&eStaff&8] &b{player} &emoved to &b{to} &efrom &b{from}&e.'
-staffleave: '&8[&eStaff&8] &b{player} &eleft &b{server}.&e'
+staffleave: '&8[&eStaff&8] &b{player} &eleft &b{server}&e.'
 
 
 
